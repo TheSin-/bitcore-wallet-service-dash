@@ -40,14 +40,14 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.dashevo.org',
-      apiPrefix:'/insight-api-dash'
+      url: 'https://insight.terracoin.io',
+      apiPrefix:'/insight-api-terracoin'
     },
     testnet: {
       provider: 'insight',
-      url: 'https://testnet-insight.dashevo.org',
-      apiPrefix:'/insight-api-dash'
-      // url: 'https://test-insight.dash.org',
+      url: 'https://testnet-insight.terracoin.io',
+      apiPrefix:'/insight-api-terracoin'
+      // url: 'https://test-insight.terracoin.io',
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
