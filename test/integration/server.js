@@ -1323,7 +1323,7 @@ describe('Wallet service', function() {
               address.path.should.equal('m/0/2');
 
               helpers.stubAddressActivity([
-                'XrKNgqCuec25KrnGv2XHYqqkB6g8KWTEsk', // m/0/2
+                '1HNXVa8s4knfWH5hjvii5AKW66oc2ECb6G', // m/0/2
               ]);
               server.createAddress({}, function(err, address) {
                 should.not.exist(err);
@@ -6854,8 +6854,8 @@ describe('Wallet service', function() {
       it('should scan main addresses', function(done) {
         helpers.stubAddressActivity(
           ['1L3z9LPd861FWQhf3vDn89Fnc9dkdBo2CG', // m/0/0
-            'XrKNgqCuec25KrnGv2XHYqqkB6g8KWTEsk', // m/0/2
-            'XqAqWaGsM26969w46NcmVki9sf5GsumA41', // m/1/0
+            '1HNXVa8s4knfWH5hjvii5AKW66oc2ECb6G', // m/0/2
+            '171EdCoCNMNrBq8gwd3wMn4xZpPruh81d2', // m/1/0
           ]);
         var expectedPaths = [
           'm/0/0',
@@ -6886,8 +6886,8 @@ describe('Wallet service', function() {
       it('should not go beyond max gap', function(done) {
         helpers.stubAddressActivity(
           ['1L3z9LPd861FWQhf3vDn89Fnc9dkdBo2CG', // m/0/0
-            'XrKNgqCuec25KrnGv2XHYqqkB6g8KWTEsk', // m/0/2
-            'XoDzVDEpYXuNMR6oeKmXVXsBpsCWo8Hcgo', // m/0/5
+            '1HNXVa8s4knfWH5hjvii5AKW66oc2ECb6G', // m/0/2
+            '184P5sNf9q7ZZK8KAPBqGmGh2QSdyxdToT', // m/0/5
             '1LD7Cr68LvBPTUeXrr6YXfGrogR7TVj3WQ', // m/1/3
           ]);
         var expectedPaths = [
