@@ -145,7 +145,7 @@ describe('Storage', function() {
           var tx = Model.TxProposal.create({
             walletId: '123',
             outputs: [{
-              toAddress: 'XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD',
+              toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
               amount: i + 100,
             }],
             feePerKb: 100e2,

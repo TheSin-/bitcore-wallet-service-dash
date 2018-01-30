@@ -116,11 +116,11 @@ var aTxpOpts = function(type) {
     message: 'some message'
   };
   opts.outputs = [{
-    toAddress: "XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD",
+    toAddress: "1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr",
     amount: 10000000,
     message: "first message"
   }, {
-    toAddress: "XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD",
+    toAddress: "1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr",
     amount: 20000000,
     message: "second message"
   }, ];
@@ -166,11 +166,11 @@ var aTXP = function(type) {
     "actions": [],
     "fee": 15640,
     "outputs": [{
-      "toAddress": "yie4Ubd2ieCdzqwNyAc8QRutfri3E9ChTm",
+      "toAddress": "msqKdyZ9r2DodmExhJad3ZEgUM38DH2Jw5",
       "amount": 10000000,
       "message": "first message"
     }, {
-      "toAddress": "yie4Ubd2ieCdzqwNyAc8QRutfri3E9ChTm",
+      "toAddress": "msqKdyZ9r2DodmExhJad3ZEgUM38DH2Jw5",
       "amount": 20000000,
       "message": "second message"
     }, ],

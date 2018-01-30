@@ -350,7 +350,7 @@ describe('Push notifications', function() {
       helpers.stubUtxos(server, wallet, 1, function() {
         var txOpts = {
           outputs: [{
-            toAddress: 'XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD',
+            toAddress: '1PKWmFKiLcRHJHex6oRmp2GWNFbaet3Rj9',
             amount: 0.8e8
           }],
           feePerKb: 100e2
@@ -395,7 +395,7 @@ describe('Push notifications', function() {
       helpers.stubUtxos(server, wallet, 1, function() {
         var txOpts = {
           outputs: [{
-            toAddress: 'XqHSiRAXd3EmNUPCAqok6ch5XzVWqKg7VD',
+            toAddress: '1PKWmFKiLcRHJHex6oRmp2GWNFbaet3Rj9',
             amount: 0.8e8
           }],
           feePerKb: 100e2

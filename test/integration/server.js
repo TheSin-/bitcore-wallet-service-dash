@@ -2495,7 +2495,7 @@ describe('Wallet service', function() {
           helpers.stubUtxos(server, wallet, 1, function() {
             var txOpts = {
               outputs: [{
-                toAddress: 'yj3v6A6gQkiRbChbGwvahiFZ6EfpYxk9na',
+                toAddress: 'myGSRzhut7wZK8i8npVzes2RxJboAVw5tf',
                 amount: 0.5e8
               }],
               feePerKb: 100e2,
