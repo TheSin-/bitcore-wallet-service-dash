@@ -1270,7 +1270,7 @@ describe('Wallet service', function() {
           should.exist(address);
           address.walletId.should.equal(wallet.id);
           address.network.should.equal('livenet');
-          address.address.should.equal('Xujpyb3X5oDqfMJEuoXzyfwaSVDSg3vFPm');
+          address.address.should.equal('1L3z9LPd861FWQhf3vDn89Fnc9dkdBo2CG');
           address.isChange.should.be.false;
           address.path.should.equal('m/0/0');
           address.type.should.equal('P2PKH');
@@ -6853,7 +6853,7 @@ describe('Wallet service', function() {
 
       it('should scan main addresses', function(done) {
         helpers.stubAddressActivity(
-          ['Xujpyb3X5oDqfMJEuoXzyfwaSVDSg3vFPm', // m/0/0
+          ['1L3z9LPd861FWQhf3vDn89Fnc9dkdBo2CG', // m/0/0
             'XrKNgqCuec25KrnGv2XHYqqkB6g8KWTEsk', // m/0/2
             'XqAqWaGsM26969w46NcmVki9sf5GsumA41', // m/1/0
           ]);
@@ -6885,7 +6885,7 @@ describe('Wallet service', function() {
 
       it('should not go beyond max gap', function(done) {
         helpers.stubAddressActivity(
-          ['Xujpyb3X5oDqfMJEuoXzyfwaSVDSg3vFPm', // m/0/0
+          ['1L3z9LPd861FWQhf3vDn89Fnc9dkdBo2CG', // m/0/0
             'XrKNgqCuec25KrnGv2XHYqqkB6g8KWTEsk', // m/0/2
             'XoDzVDEpYXuNMR6oeKmXVXsBpsCWo8Hcgo', // m/0/5
             '1LD7Cr68LvBPTUeXrr6YXfGrogR7TVj3WQ', // m/1/3
