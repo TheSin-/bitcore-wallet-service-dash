@@ -2,8 +2,8 @@
 # bitcore-wallet-service-terracoin
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-wallet-service-terracoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-wallet-service-terracoin)
-[![Build Status](https://img.shields.io/travis/terracoin/bitcore-wallet-service-terracoin.svg?branch=master&style=flat-square)](https://travis-ci.org/terracoin/bitcore-wallet-service-terracoin)
-[![Coverage Status](https://coveralls.io/repos/terracoin/bitcore-wallet-service-terracoin/badge.svg?branch=master)](https://coveralls.io/r/terracoin/bitcore-wallet-service-terracoin?branch=master)
+[![Build Status](https://img.shields.io/travis/TheSin-/bitcore-wallet-service-terracoin.svg?branch=master&style=flat-square)](https://travis-ci.org/TheSin-/bitcore-wallet-service-terracoin)
+[![Coverage Status](https://coveralls.io/repos/TheSin-/bitcore-wallet-service-terracoin/badge.svg?branch=master)](https://coveralls.io/r/TheSin-/bitcore-wallet-service-terracoin?branch=master)
 
 A Multisig HD Bitcore Wallet Service.
 
