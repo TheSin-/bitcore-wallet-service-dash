@@ -57,8 +57,8 @@ describe('Email notifications', function() {
                 from: 'bws@dummy.net',
                 subjectPrefix: '[test wallet]',
                 publicTxUrlTemplate: {
-                  livenet: 'https://insight.bitpay.com/tx/{{txid}}',
-                  testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
+                  livenet: 'https://insight.terracoin.io/tx/{{txid}}',
+                  testnet: 'https://test-insight.terracoin.io/tx/{{txid}}',
                 },
               },
             }, function(err) {
@@ -82,7 +82,7 @@ describe('Email notifications', function() {
       helpers.stubUtxos(server, wallet, [1, 1], function() {
         var txOpts = {
           outputs: [{
-            toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
+            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
             amount: 0.8e8
           }],
           feePerKb: 100e2
@@ -119,7 +119,7 @@ describe('Email notifications', function() {
       helpers.stubUtxos(server, wallet, [1, 1], function() {
         var txOpts = {
           outputs: [{
-            toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
+            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
             amount: 0.8e8
           }],
           feePerKb: 100e2
@@ -151,7 +151,7 @@ describe('Email notifications', function() {
       helpers.stubUtxos(server, wallet, [1, 1], function() {
         var txOpts = {
           outputs: [{
-            toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
+            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
             amount: 0.8e8
           }],
           feePerKb: 100e2
@@ -201,7 +201,7 @@ describe('Email notifications', function() {
             one.subject.should.contain('Payment sent');
             one.text.should.contain('800,000');
             should.exist(one.html);
-            one.html.should.contain('https://insight.bitpay.com/tx/' + txp.txid);
+            one.html.should.contain('https://insight.terracoin.io/tx/' + txp.txid);
             server.storage.fetchUnsentEmails(function(err, unsent) {
               should.not.exist(err);
               unsent.should.be.empty;
@@ -217,7 +217,7 @@ describe('Email notifications', function() {
       helpers.stubUtxos(server, wallet, 1, function() {
         var txOpts = {
           outputs: [{
-            toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
+            toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
             amount: 0.8e8
           }],
           feePerKb: 100e2
@@ -419,7 +419,7 @@ describe('Email notifications', function() {
         helpers.stubUtxos(server, wallet, 1, function() {
           var txOpts = {
             outputs: [{
-              toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
+              toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
               amount: 0.8e8
             }],
             feePerKb: 100e2
@@ -472,8 +472,8 @@ describe('Email notifications', function() {
                 from: 'bws@dummy.net',
                 subjectPrefix: '[test wallet]',
                 publicTxUrlTemplate: {
-                  livenet: 'https://insight.bitpay.com/tx/{{txid}}',
-                  testnet: 'https://test-insight.bitpay.com/tx/{{txid}}',
+                  livenet: 'https://insight.terracoin.io/tx/{{txid}}',
+                  testnet: 'https://test-insight.terracoin.io/tx/{{txid}}',
                 },
               },
             }, function(err) {
@@ -488,7 +488,7 @@ describe('Email notifications', function() {
         helpers.stubUtxos(server, wallet, [1, 1], function() {
           var txOpts = {
             outputs: [{
-              toAddress: '1LXWMbwNxBTKTtkjuhKd7K2mT44wdoonMr',
+              toAddress: '18PzpUFkFZE8zKWUPvfykkTxmB9oMR8qP7',
               amount: 0.8e8
             }],
             feePerKb: 100e2
